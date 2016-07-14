@@ -3,3 +3,17 @@
   min-height:100vh;
 }
 }
+h1{
+  text-align: center;
+}
+.main{
+  margin:o auto;
+width: 60%;
+}
+footer{
+    background-color: darkorange;
+}
+footer li{
+  display: inline-block;
+
+}
