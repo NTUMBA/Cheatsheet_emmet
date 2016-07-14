@@ -1,10 +1,24 @@
-@media(min-width:769px){
-.wrap{
-  min-height:100vh;
-}
-}
-h1{
+
+h1,h3,h5{
   text-align: center;
+}
+header{
+  background-color: chartreuse;
+    height: 60px;
+  font-size: 20px;
+}
+.container img{
+  float: right;
+  width:10%;
+}
+header ul li{
+  color:white;
+  margin-top: 0;
+  margin-left: 0;
+  padding: 8px 2px 5px 3px;
+  display: inline-block;
+  list-style-type: none;
+/*padding: top=bottom####################left=right##################*/
 }
 .main{
   margin:o auto;
@@ -16,4 +30,9 @@ footer{
 footer li{
   display: inline-block;
 
+}
+@media(min-width:769px){
+.wrap{
+  min-height:100vh;
+}
 }
